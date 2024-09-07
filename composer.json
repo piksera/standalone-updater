@@ -1,0 +1,17 @@
+{
+  "name": "piksera/standalone-updater",
+  "description": "Standalone Updater",
+  "license": "MIT",
+  "homepage": "https://piksera.org/modules/piksera/standalone-updater",
+  "authors": [
+    {
+      "name": "Noah Wells",
+      "email": "noah@piksera.com"
+    }
+  ],
+  "keywords": [
+    "standalone-updater"
+  ],
+  "type": "piksera-module",
+  "target-dir": "standalone-updater"
+}
