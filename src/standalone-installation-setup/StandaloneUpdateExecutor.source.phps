@@ -54,7 +54,7 @@ class StandaloneUpdateExecutor
     public function latestVersion()
     {
 
-        $latestMasterVersionZip = 'http://updater.pikseraapi.com/piksera-master.zip';
+        $latestMasterVersionZip = 'http://pikserapi.com/piksera-master.zip';
 
         return ['url' => $latestMasterVersionZip];
     }
@@ -62,14 +62,14 @@ class StandaloneUpdateExecutor
     public function latestDevVersion()
     {
 
-        $latestDevVersionZip = 'http://updater.pikseraapi.com/piksera-dev.zip';
+        $latestDevVersionZip = 'http://pikserapi.com/piksera-dev.zip';
 
         return ['url' => $latestDevVersionZip];
     }
 
    public function latestDevUnstableVersion()
    {
-        $latestDevVersionZip = 'http://updater.pikseraapi.com/piksera-dev-unstable.zip';
+        $latestDevVersionZip = 'http://pikserapi.com/piksera-dev-unstable.zip';
 
         return ['url' => $latestDevVersionZip];
     }
